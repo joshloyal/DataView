@@ -69,8 +69,7 @@ class DataView(object):
     def data(self):
         return self._data.copy()
 
-    def view(self, all_types, partition_method, pipeline):
-        dv = self.select(all_types)
+    def view(self, partition_method, pipeline):
         for instruction in pipeline:
             if instruction[0] == types.DataTypes.ALL:
                 dv.values

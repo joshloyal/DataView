@@ -1,2 +1,2 @@
 # DataView
-Library of Datasets with Munging Capabilities Build In
+Library of Datasets with Munging Capabilities Built In
